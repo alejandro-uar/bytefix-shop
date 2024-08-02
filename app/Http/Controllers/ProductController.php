@@ -41,7 +41,7 @@ class ProductController extends Controller
             'uri'=>$filaName
         ]);
 
-        return redirect()->route('index')->with('messsage','created successfully');
+        return redirect()->route('admin.index')->with('messsage','created successfully');
     }
 
     //Laptos
