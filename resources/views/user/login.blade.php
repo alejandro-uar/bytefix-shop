@@ -9,10 +9,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <div class="d-flex justify-content-center align-items-center" style="height: 100vh">
-        <form action="{{ route('authenticate') }}" method="POST">
+    <div class="d-flex justify-content-center align-items-center" style="height: 100vh; background:#04b;">
+        <form action="{{ route('authenticate') }}" method="POST" class="bg-white rounded p-4">
             @csrf
-            <h3 class="text-center">Sing in</h3>
+            <h3 class="text-center">JobsNet</h3>
             <div class="mb-3">
               <label for="email" class="form-label">Email address</label>
               <input type="email" class="form-control" id="email" name="email">
@@ -22,7 +22,7 @@
               <input type="password" class="form-control" id="password" name="password">
             </div>
             <div class="d-flex justify-content-center">
-                <button type="submit" class="btn btn-primary w-100 p-2">Login</button>
+                <button type="submit" class="btn btn-primary w-100 p-2">Sing in</button>
             </div>
           </form>
     </div>
