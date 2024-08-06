@@ -28,6 +28,7 @@ Route::middleware('auth')->group(function(){
     Route::get('/all-products', function () {
         return view('views_products.all_products');
     })->name('all');    
+    Route::post('/admin/logout', [UserController::class, 'logout'])->name('logout');
 });
 
 //Routers publics and filters
