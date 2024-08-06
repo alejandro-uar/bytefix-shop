@@ -1,8 +1,13 @@
 # ByteFix-Shop
 
-<pre style="text-align: justify">
-   Este proyecto es un ejemplo básico diseñado para mostrar mis habilidades en el uso del framework Laravel. Utiliza MySQL para la persistencia de datos, el almacenamiento de Laravel para guardar imágenes y Bootstrap para el diseño y estilo visual. El proyecto simula una tienda virtual donde los clientes pueden explorar y filtrar productos de una empresa a través de diferentes categorías. Además, el proyecto cuenta con rutas protegidas a las que solo el administrador puede acceder mediante un formulario de inicio de sesión. Desde allí, el administrador puede añadir nuevos productos, subir imágenes, actualizar información, y eliminar productos que ya no estén disponibles.
-</pre>
+## Descripción del Proyecto
+
+Este proyecto es un ejemplo básico diseñado para mostrar mis habilidades en el uso del framework Laravel. Utiliza MySQL para la persistencia de datos, el almacenamiento de Laravel para guardar imágenes y Bootstrap para el diseño y estilo visual.
+
+El proyecto simula una tienda virtual donde los clientes pueden explorar y filtrar productos de una empresa a través de diferentes categorías.
+
+Además, el proyecto cuenta con rutas protegidas a las que solo el administrador puede acceder mediante un formulario de inicio de sesión. Desde allí, el administrador puede añadir nuevos productos, subir imágenes, actualizar información y eliminar productos que ya no estén disponibles.
+
 
 ## Rutas
 
