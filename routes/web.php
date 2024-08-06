@@ -21,11 +21,11 @@ Route::post('/admin/register', [UserController::class, 'register'])->name('regis
 
 Route::middleware('auth')->group(function(){
     Route::get('/admin/products', [ProductController::class, 'all'])->name('admin.index');
-    Route::get('/new-product', [ProductController::class, 'index'])->name('product');
-    Route::post('/new-product', [ProductController::class, 'create']);  
-    Route::get('/new-category', [CategoryController::class, 'index'])->name('category');
-    Route::post('/new-category', [CategoryController::class, 'register']);
-    Route::get('/all-products', function () {
+    Route::get('/admin/new-product', [ProductController::class, 'index'])->name('product');
+    Route::post('/admin/new-product', [ProductController::class, 'create']);  
+    Route::get('/admin/new-category', [CategoryController::class, 'index'])->name('category');
+    Route::post('/admin/new-category', [CategoryController::class, 'register']);
+    Route::get('/admin/all-products', function () {
         return view('views_products.all_products');
     })->name('all');    
     Route::post('/admin/logout', [UserController::class, 'logout'])->name('logout');
