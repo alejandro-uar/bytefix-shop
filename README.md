@@ -42,7 +42,15 @@ Además, el proyecto cuenta con rutas protegidas a las que solo el administrador
 - **GET**: `/admin/new-category`  
   - Descripción: "Vista para poder dar de alta nuevas categorias."
   - URL de acceso: `http://127.0.0.1:8000/admin/new-category`
-  
+
+## Vista publica
+![raiz](https://github.com/user-attachments/assets/efb3800d-0cb1-4158-9b50-db3fb1ce521d)
+
+## Vista privada(admin)
+![login](https://github.com/user-attachments/assets/4683defa-76b5-434a-b651-85206a119111)
+![admin](https://github.com/user-attachments/assets/6665a884-cfbc-40e4-b2d8-0870112d02c5)
+![newProduct](https://github.com/user-attachments/assets/0aab4f53-3183-413b-bb18-6168e082df51)
+![newCategory](https://github.com/user-attachments/assets/9692af97-b892-4978-9109-3bcd352627bd)
 
 
 
