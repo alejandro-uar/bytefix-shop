@@ -22,7 +22,7 @@
               <input type="password" class="form-control" id="password" name="password">
             </div>
             <div class="d-flex justify-content-center">
-                <button type="submit" class="btn btn-primary w-100 p-2">Sing in</button>
+                <button type="submit" class="btn btn-primary w-100 p-2">Login</button>
             </div>
           </form>
     </div>
