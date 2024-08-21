@@ -12,6 +12,9 @@
         <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
+              <a class="nav-link text-light" href="{{route('admin.inventory')}}">Inventory</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link text-light" href="{{route('category')}}">+New category</a>
             </li>
             <li class="nav-item">
