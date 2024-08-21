@@ -10,7 +10,7 @@ class PrintController extends Controller
 {
     public function print(){
         $data = Product::all();
-        $pdf = Pdf::loadView('pdf.invetoryAll', $data);
+        $pdf = Pdf::loadView('pdf.invetoryAll', ["data"=>$data]);
         return $pdf->download('InventoryAllProducts');
     }
 }
