@@ -19,6 +19,10 @@ class ProductController extends Controller
         return view('index', compact('products'));
     }
 
+    public function inventory(){
+        return view('views_products.inventory', ["products" => Product::all()]);
+    }
+
 
     //Create
     public function create(Request $request){
