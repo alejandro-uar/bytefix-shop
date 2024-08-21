@@ -21,6 +21,7 @@ Route::post('/admin/register', [UserController::class, 'register'])->name('regis
 
 Route::middleware('auth')->group(function(){
     Route::get('/admin/products', [ProductController::class, 'all'])->name('admin.index');
+    Route::get('/admin/inventory', [ProductController::class, 'inventory'])->name('admin.inventory');
     Route::get('/admin/new-product', [ProductController::class, 'index'])->name('product');
     Route::post('/admin/new-product', [ProductController::class, 'create']);  
     Route::get('/admin/new-category', [CategoryController::class, 'index'])->name('category');
