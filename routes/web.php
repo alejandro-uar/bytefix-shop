@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\PrintController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
@@ -22,6 +23,7 @@ Route::post('/admin/register', [UserController::class, 'register'])->name('regis
 Route::middleware('auth')->group(function(){
     Route::get('/admin/products', [ProductController::class, 'all'])->name('admin.index');
     Route::get('/admin/inventory', [ProductController::class, 'inventory'])->name('admin.inventory');
+    Route::get('/admin/print', [PrintController::class, 'print'])->name('admin.print');
     Route::get('/admin/new-product', [ProductController::class, 'index'])->name('product');
     Route::post('/admin/new-product', [ProductController::class, 'create']);  
     Route::get('/admin/new-category', [CategoryController::class, 'index'])->name('category');
